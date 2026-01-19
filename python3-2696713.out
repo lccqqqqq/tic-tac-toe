@@ -1,0 +1,30 @@
+=========================================================
+Job submitted date = Mon 19 Jan 22:44:21 GMT 2026
+1 nodes ( 1 processes per node )
+1 hosts used: comp133
+Job output begins
+-----------------
+
+================================================================================
+Running solver comparison on LossGame1D
+================================================================================
+
+Running MCTS on LossGame1D...
+  Running MCTS with 100 simulations...
+Traceback (most recent call last):
+  File "/mnt/users/clin/workspace/tic-tac-toe/tests/test_loss_game_solvers.py", line 494, in <module>
+    results = compare_solvers_on_game(args.game, args.solvers, seed=args.seed)
+  File "/mnt/users/clin/workspace/tic-tac-toe/tests/test_loss_game_solvers.py", line 429, in compare_solvers_on_game
+    results[solver_name] = run_mcts_progressive(game_config, solver_config, seed)
+  File "/mnt/users/clin/workspace/tic-tac-toe/tests/test_loss_game_solvers.py", line 179, in run_mcts_progressive
+    eval_result = evaluator.evaluate()
+  File "/mnt/users/clin/workspace/tic-tac-toe/tests/../evaluator.py", line 140, in evaluate
+    raise ValueError("Baseline environment is not terminal; cannot compute regret")
+ValueError: Baseline environment is not terminal; cannot compute regret
+srun: error: comp133: task 0: Exited with exit code 1
+---------------
+Job output ends
+=========================================================
+PBS job: finished date = Mon 19 Jan 22:44:35 GMT 2026
+Total run time : 0 Hours 0 Minutes 13 Seconds
+=========================================================

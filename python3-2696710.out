@@ -1,0 +1,18 @@
+=========================================================
+Job submitted date = Mon 19 Jan 22:34:32 GMT 2026
+1 nodes ( 1 processes per node )
+1 hosts used: comp133
+Job output begins
+-----------------
+
+Traceback (most recent call last):
+  File "/mnt/users/clin/workspace/tic-tac-toe/tests/test_loss_game_solvers.py", line 14, in <module>
+    from environment import LossGame1DEnv, LossGame3DEnv
+ModuleNotFoundError: No module named 'environment'
+srun: error: comp133: task 0: Exited with exit code 1
+---------------
+Job output ends
+=========================================================
+PBS job: finished date = Mon 19 Jan 22:35:01 GMT 2026
+Total run time : 0 Hours 0 Minutes 28 Seconds
+=========================================================

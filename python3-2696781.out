@@ -1,0 +1,82 @@
+=========================================================
+Job submitted date = Mon 19 Jan 23:14:44 GMT 2026
+1 nodes ( 1 processes per node )
+1 hosts used: comp133
+Job output begins
+-----------------
+
+================================================================================
+Running solver comparison on LossGame1D
+================================================================================
+
+Running MCTS on LossGame1D...
+  Running MCTS with 100 simulations...
+    Completed in 0.08s - Payoff (P0): 10.0346, Regret (P0): -9.5866
+  Running MCTS with 200 simulations...
+    Completed in 0.12s - Payoff (P0): -4.5529, Regret (P0): 5.0010
+  Running MCTS with 400 simulations...
+    Completed in 0.32s - Payoff (P0): 0.3234, Regret (P0): 0.1247
+  Running MCTS with 800 simulations...
+    Completed in 0.91s - Payoff (P0): 0.3529, Regret (P0): 0.0951
+  Running MCTS with 1600 simulations...
+    Completed in 2.69s - Payoff (P0): 0.3529, Regret (P0): 0.0951
+
+Running GradientMCTS on LossGame1D...
+  Running GradientMCTS with 100 simulations...
+    Completed in 0.78s - Payoff (P0): 2.0000, Regret (P0): -1.5520
+  Running GradientMCTS with 200 simulations...
+    Completed in 0.32s - Payoff (P0): -14.0000, Regret (P0): 14.4480
+  Running GradientMCTS with 400 simulations...
+    Completed in 0.67s - Payoff (P0): -14.0000, Regret (P0): 14.4480
+  Running GradientMCTS with 800 simulations...
+    Completed in 1.71s - Payoff (P0): 2.0000, Regret (P0): -1.5520
+  Running GradientMCTS with 1600 simulations...
+    Completed in 3.79s - Payoff (P0): 2.0000, Regret (P0): -1.5520
+
+Running MCTSwithLocalUpdate on LossGame1D...
+  Running MCTSwithLocalUpdate with 100 simulations...
+    Completed in 1.13s - Payoff (P0): -0.1758, Regret (P0): 0.6239
+  Running MCTSwithLocalUpdate with 200 simulations...
+    Completed in 1.35s - Payoff (P0): -2.5532, Regret (P0): 3.0013
+  Running MCTSwithLocalUpdate with 400 simulations...
+    Completed in 3.02s - Payoff (P0): 4.5906, Regret (P0): -4.1426
+  Running MCTSwithLocalUpdate with 800 simulations...
+    Completed in 6.18s - Payoff (P0): 4.3008, Regret (P0): -3.8528
+  Running MCTSwithLocalUpdate with 1600 simulations...
+    Completed in 12.97s - Payoff (P0): 4.7488, Regret (P0): -4.3008
+
+Running LocalStochasticMinimaxUpdate on LossGame1D...
+  Running LocalStochasticMinimaxUpdate for 2000 iterations...
+    Iter 0/2000 - Payoff (P0): 0.7671, Regret (P0): -0.3191
+    Iter 100/2000 - Payoff (P0): 0.5455, Regret (P0): -0.0975
+    Iter 200/2000 - Payoff (P0): 0.3528, Regret (P0): 0.0953
+    Iter 300/2000 - Payoff (P0): 0.2015, Regret (P0): 0.2466
+    Iter 400/2000 - Payoff (P0): 0.0938, Regret (P0): 0.3543
+    Iter 500/2000 - Payoff (P0): 0.0360, Regret (P0): 0.4120
+    Iter 600/2000 - Payoff (P0): 0.0276, Regret (P0): 0.4205
+    Iter 700/2000 - Payoff (P0): 0.0688, Regret (P0): 0.3792
+    Iter 800/2000 - Payoff (P0): 0.1615, Regret (P0): 0.2865
+    Iter 900/2000 - Payoff (P0): 0.2982, Regret (P0): 0.1498
+    Iter 1000/2000 - Payoff (P0): 0.4910, Regret (P0): -0.0429
+    Iter 1100/2000 - Payoff (P0): 0.5484, Regret (P0): -0.1003
+    Iter 1200/2000 - Payoff (P0): 0.4479, Regret (P0): 0.0002
+    Iter 1300/2000 - Payoff (P0): 0.3620, Regret (P0): 0.0860
+    Iter 1400/2000 - Payoff (P0): 0.2824, Regret (P0): 0.1656
+    Iter 1500/2000 - Payoff (P0): 0.2150, Regret (P0): 0.2331
+    Iter 1600/2000 - Payoff (P0): 0.1553, Regret (P0): 0.2927
+    Iter 1700/2000 - Payoff (P0): 0.1108, Regret (P0): 0.3373
+    Iter 1800/2000 - Payoff (P0): 0.0762, Regret (P0): 0.3718
+    Iter 1900/2000 - Payoff (P0): 0.0494, Regret (P0): 0.3986
+    Final - Payoff (P0): 0.0315, Regret (P0): 0.4165
+
+Results saved to Data/loss_game_comparison/LossGame1D_20260119_231627.pkl
+
+================================================================================
+Experiment complete! Results saved to: Data/loss_game_comparison/LossGame1D_20260119_231627.pkl
+================================================================================
+---------------
+Job output ends
+=========================================================
+PBS job: finished date = Mon 19 Jan 23:16:27 GMT 2026
+Total run time : 0 Hours 1 Minutes 42 Seconds
+=========================================================
