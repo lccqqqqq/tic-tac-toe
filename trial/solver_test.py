@@ -2,8 +2,8 @@ from site import venv
 import torch as t
 from torch import Tensor
 from abc import ABC, abstractmethod
-from environment import GameEnv
-from spaces import ActionSpace, BoxActionSpace, ComplexProjectiveActionSpace
+from environment_test import GameEnv
+from spaces_test import ActionSpace, BoxActionSpace, ComplexProjectiveActionSpace
 import math
 from copy import deepcopy
 
