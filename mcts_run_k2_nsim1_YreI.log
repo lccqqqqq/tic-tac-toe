@@ -1,0 +1,22 @@
+===== Quantum Tic-Tac-Toe MCTS Run =====
+[2026-03-25 19:42:58] cwd=/mnt/users/clin/workspace/tic-tac-toe
+[2026-03-25 19:42:58] profile_log=/mnt/users/clin/workspace/tic-tac-toe/mcts_profile_k2_nsim1_YreI.txt
+[2026-03-25 19:42:58] run_log=/mnt/users/clin/workspace/tic-tac-toe/mcts_run_k2_nsim1_YreI.log
+[2026-03-25 19:42:58] seed=7
+[2026-03-25 19:42:58] k=2
+[2026-03-25 19:42:58] num_simulations=1
+[2026-03-25 19:42:58] exploration_weight=1.0
+[2026-03-25 19:42:58] widening_factor=2.0
+[2026-03-25 19:42:59] environment and action space created
+[2026-03-25 19:42:59] starting mcts.run()
+[2026-03-25 19:43:03] run finished stats={'num_simulations_batches': 1, 'batch_size_k': 2, 'total_batches': 1, 'total_rollouts': 2, 'total_time': 4.412069221958518, 'select_time_total': 0.7743681150022894, 'rollout_pool_time_total': 3.411980569944717, 'backprop_time_total': 0.0002763009397312999, 'overhead_time': 0.22544423607178032, 'worker_total_steps': 15, 'max_branch_size_seen': 1640, 'depth_counts': {1: 1, 2: 1}}
+[2026-03-25 19:43:03] num_root_children=1
+[2026-03-25 19:43:03] best_child=(0,)
+[2026-03-25 19:43:03] best_action_norm=1.000000
+[2026-03-25 19:43:03] best_action_support=[0, 5]
+[2026-03-25 19:43:03] best_action_site_0=(0.7341047525405884-0.15440474450588226j)
+[2026-03-25 19:43:03] best_action_site_5=(-0.38851502537727356+0.5350754261016846j)
+[2026-03-25 19:43:03] post_move_terminal=False
+[2026-03-25 19:43:03] post_move_player=1
+[2026-03-25 19:43:03] post_move_branch_count=9
+[2026-03-25 19:43:03] job completed

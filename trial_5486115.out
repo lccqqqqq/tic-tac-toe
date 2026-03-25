@@ -1,0 +1,14 @@
+=========================================================
+Job submitted date = Wed 25 Mar 18:52:58 GMT 2026
+1 nodes ( 4 processes per node )
+1 hosts used: comp05
+Job output begins
+-----------------
+
+/usr/bin/python3: can't open file '/mnt/users/clin/workspace/tic-tac-toe/../trial.py': [Errno 2] No such file or directory
+---------------
+Job output ends
+=========================================================
+PBS job: finished date = Wed 25 Mar 18:53:52 GMT 2026
+Total run time : 0 Hours 0 Minutes 0 Seconds
+=========================================================

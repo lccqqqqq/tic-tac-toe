@@ -1,0 +1,21 @@
+=========================================================
+Job submitted date = Wed 25 Mar 19:02:36 GMT 2026
+1 nodes ( 4 processes per node )
+1 hosts used: comp75
+Job output begins
+-----------------
+
+Traceback (most recent call last):
+  File "/mnt/users/clin/workspace/tic-tac-toe/trial/trial.py", line 9, in <module>
+    from mcts_timer import MCTS
+  File "/mnt/users/clin/workspace/tic-tac-toe/trial/mcts_timer.py", line 3, in <module>
+    from solver_test import RandomMinimaxUpdate, LocalStochasticMinimaxUpdate
+  File "/mnt/users/clin/workspace/tic-tac-toe/trial/solver_test.py", line 5, in <module>
+    from environment import GameEnv
+ModuleNotFoundError: No module named 'environment'
+---------------
+Job output ends
+=========================================================
+PBS job: finished date = Wed 25 Mar 19:04:36 GMT 2026
+Total run time : 0 Hours 1 Minutes 28 Seconds
+=========================================================

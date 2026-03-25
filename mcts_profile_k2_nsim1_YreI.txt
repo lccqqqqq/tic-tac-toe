@@ -1,0 +1,41 @@
+===== MCTS Profiling Log =====
+[2026-03-25 19:42:59] starting run num_simulations=1 k=2
+[2026-03-25 19:43:03] batch=1 select=0.774368s pool_rollout=3.411981s backprop=0.000276s rollouts_in_batch=2
+
+===== SUMMARY =====
+num_simulations_batches: 1
+batch_size_k: 2
+total_batches: 1
+total_rollouts: 2
+expected_total_rollouts: 2
+total_time_s: 4.412069
+select_time_s: 0.774368
+pool_rollout_time_s: 3.411981
+backprop_time_s: 0.000276
+overhead_time_s: 0.225444
+avg_batch_time_s: 4.412069
+avg_select_per_batch_s: 0.774368
+avg_pool_rollout_per_batch_s: 3.411981
+avg_backprop_per_batch_s: 0.000276
+select_frac: 0.175511
+pool_rollout_frac: 0.773329
+backprop_frac: 0.000063
+overhead_frac: 0.051097
+
+===== ROLLOUT INTERNALS =====
+worker_rollout_time_sum_s: 6.638214
+worker_sample_time_sum_s: 0.007286
+worker_move_time_sum_s: 6.630844
+worker_total_steps: 15
+avg_steps_per_rollout: 7.500000
+avg_rollout_time_s: 3.319107
+avg_sample_time_s: 0.003643
+avg_move_time_s: 3.315422
+avg_final_branch_size: 958.000000
+avg_branch_size_during_rollout: 869.758929
+max_branch_size_seen: 1640
+
+===== DEPTH ANALYSIS =====
+depth=1 count=1 avg_rollout_time_s=3.358138 avg_steps=8.000000 avg_branch_size=812.375000 max_branch_size=1640
+depth=2 count=1 avg_rollout_time_s=3.280076 avg_steps=7.000000 avg_branch_size=927.142857 max_branch_size=1640
+[2026-03-25 19:43:03] run completed
